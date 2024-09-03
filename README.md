@@ -16,3 +16,6 @@ To make them compatible with cvc5 syntax, the following changes should be applie
     * Function `MaxIFuel` declared twice. Delete the second declaration.
     * run with `--incremental` option
 
+* VeriBetrKV_D:
+    * Convert `bv2int` to `bv2nat`
+    * run with `--incremental` option
