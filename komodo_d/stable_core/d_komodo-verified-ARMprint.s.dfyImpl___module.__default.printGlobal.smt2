@@ -1937,7 +1937,7 @@
 (assert (forall ((x@@46 Int) (y@@18 Int) ) (!  (and (=> (INTERNAL_le_boogie x@@46 y@@18) (<= x@@46 y@@18)) (=> (<= x@@46 y@@18) (INTERNAL_le_boogie x@@46 y@@18))) :qid |DafnyPre.1204:51| :skolemid |581| :pattern ( (INTERNAL_le_boogie x@@46 y@@18)) )))
 (assert (forall ((x@@47 Int) (y@@19 Int) ) (!  (and (=> (INTERNAL_gt_boogie x@@47 y@@19) (> x@@47 y@@19)) (=> (> x@@47 y@@19) (INTERNAL_gt_boogie x@@47 y@@19))) :qid |DafnyPre.1205:51| :skolemid |582| :pattern ( (INTERNAL_gt_boogie x@@47 y@@19)) )))
 (assert (forall ((x@@48 Int) (y@@20 Int) ) (!  (and (=> (INTERNAL_ge_boogie x@@48 y@@20) (>= x@@48 y@@20)) (=> (>= x@@48 y@@20) (INTERNAL_ge_boogie x@@48 y@@20))) :qid |DafnyPre.1206:51| :skolemid |583| :pattern ( (INTERNAL_ge_boogie x@@48 y@@20)) )))
-(assert (forall ((b@@56 (_ BitVec 32)) ) (!  (and (and (<= 0 (nat_from_bv32 b@@56)) (< (nat_from_bv32 b@@56) 4294967296)) (= (nat_from_bv32 b@@56) (bv2int b@@56))) :qid |unknown.0:0| :skolemid |584| :pattern ( (nat_from_bv32 b@@56)) )))
+(assert (forall ((b@@56 (_ BitVec 32)) ) (!  (and (and (<= 0 (nat_from_bv32 b@@56)) (< (nat_from_bv32 b@@56) 4294967296)) (= (nat_from_bv32 b@@56) (bv2nat b@@56))) :qid |unknown.0:0| :skolemid |584| :pattern ( (nat_from_bv32 b@@56)) )))
 (assert (= (type Tclass._System.nat) TyType))
 (assert (= (Tag Tclass._System.nat) Tagclass._System.nat))
 (assert (forall ((bx@@34 T@U) ) (!  (=> (and (= (type bx@@34) BoxType) ($IsBox bx@@34 Tclass._System.nat)) (and (= ($Box ($Unbox intType bx@@34)) bx@@34) ($Is ($Unbox intType bx@@34) Tclass._System.nat))) :qid |unknown.0:0| :skolemid |585| :pattern ( ($IsBox bx@@34 Tclass._System.nat)) )))
