@@ -14,7 +14,6 @@
 (declare-fun ZFuel () Fuel)
 (declare-fun SFuel (Fuel) Fuel)
 (declare-fun MaxIFuel () Fuel)
-(declare-fun MaxIFuel () Fuel)
 (declare-fun MaxFuel () Fuel)
 (declare-fun PreType (Term) Term)
 (declare-fun Valid (Term) Bool)
